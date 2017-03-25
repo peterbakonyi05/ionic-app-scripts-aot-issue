@@ -5,9 +5,12 @@
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
-    "build": "ionic-app-scripts build",
-    "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve"
+    "build": "ionic-app-scripts build"
+  },
+  "config": {
+    "ionic_app_entry_point": "src/app/web/main.ts",
+    "ionic_app_ng_module_path": "src/app/app.module.ts",
+    "ionic_app_ng_module_class": "AppModule"
   },
   "dependencies": {
     "@angular/common": "2.4.8",
